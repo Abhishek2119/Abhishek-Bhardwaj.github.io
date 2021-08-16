@@ -1,0 +1,45 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(189, 221, 241);
+    margin-bottom: 20px;
+}
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer{
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,75 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+
+img{
+    width: 70px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+header{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(189, 221, 241);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    align-self: center;
+}
+
+table, th, tr, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    text-align: center;
+}
+
+th{
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: rgb(189, 221, 241);
+}
+
+.win{
+    background-color: rgb(177, 238, 177);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.share{
+    background-color: lightpink;
+}
+
+footer{
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.note{
+    text-align: center;
+    font-weight: bold;
+}
